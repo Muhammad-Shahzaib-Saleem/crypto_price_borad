@@ -1,4 +1,4 @@
-# 🪙 Crypto SPA with Vanry/USDT (React + MUI)
+# 🪙 Crypto Price SPA with Vanry/USDT (React + MUI)
 
 A responsive **single-page application (SPA)** that displays live cryptocurrency prices using the **CoinGecko API** (with Binance fallback for Vanry/USDT).
 The app is built with **React**, **Material UI (MUI)**, and **Recharts**.
@@ -67,15 +67,11 @@ npm run build
 
 ### Homepage (List of Coins)
 
-```
-![Homepage](Home-page.png)
-```
+![Homepage](assets/Home-page.png)
 
 ### Coin Detail with Chart
 
-```
 ![Detail View](assets/prices.png)
-```
 
 ## 🙌 Contributing
 
