@@ -538,6 +538,7 @@ export default function App() {
                     </TableRow>
                   ) : filtered.length > 0 ? (
                     filtered.map((c) => (
+                      
                       <TableRow
                         key={c.id + (c.pair || "")}
                         hover
