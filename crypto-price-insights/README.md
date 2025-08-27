@@ -1,12 +1,82 @@
-# React + Vite
+# 🪙 Crypto SPA with Vanry/USDT (React + MUI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **single-page application (SPA)** that displays live cryptocurrency prices using the **CoinGecko API** (with Binance fallback for Vanry/USDT).  
+The app is built with **React**, **Material UI (MUI)**, and **Recharts**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- ✅ **Vanry/USDT pair shown first** (using Binance data, fallback to CoinGecko).  
+- ✅ Homepage with **coin list**, **price**, **24h % change**, and **volume**.  
+- ✅ **Search & filter** coins (by name, symbol, or pair).  
+- ✅ Click a coin to view **detail modal** with:
+  - Interactive **price chart** (1D, 7D, 30D, 90D).  
+  - Key stats: price, 24h change, volume.  
+- ✅ **Dark/Light mode toggle**.  
+- ✅ Fully responsive, professional **MUI design**.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+- [React](https://react.dev/)  
+- [Material UI (MUI)](https://mui.com/)  
+- [Recharts](https://recharts.org/)  
+- [CoinGecko API](https://www.coingecko.com/en/api)  
+- [Binance API](https://binance-docs.github.io/apidocs/spot/en/#symbol-price-ticker)  
+
+---
+
+## 📦 Installation & Setup
+
+Clone this repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/crypto-spa-vanry.git
+cd crypto-spa-vanry
+npm install
+```
+
+Run development server:
+
+```bash
+npm start
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## ⚙️ Configuration
+
+- The app fetches crypto market data from **CoinGecko**.  
+- For **Vanry/USDT**, it first tries **Binance API**, then falls back to **CoinGecko USD pair**.  
+
+---
+
+## 📸 Screenshots
+
+### Homepage (List of Coins)  
+*(include screenshot here)*  
+
+### Coin Detail with Chart  
+*(include screenshot here)*  
+
+---
+
+## 🙌 Contributing
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to improve.  
+
+---
+
+## 📄 License
+This project is **MIT licensed**.  
