@@ -44,9 +44,15 @@ Run development server:
 npm run dev
 ```
 
-Open in browser:
+### Local
+
+Open in your browser after run the project :
 
 http://localhost:5173
+
+### Live
+
+https://crypto-price-insight.vercel.app/
 
 Build for production:
 
