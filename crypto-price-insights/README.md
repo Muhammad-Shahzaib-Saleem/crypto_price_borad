@@ -52,7 +52,7 @@ http://localhost:5173
 
 ### Live
 
-https://crypto-price-insight.vercel.app/
+https://crypto-price-insights.vercel.app/
 
 Build for production:
 
